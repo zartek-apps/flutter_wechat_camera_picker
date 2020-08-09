@@ -26,10 +26,10 @@ class DefaultCameraPickerTextDelegate implements CameraPickerTextDelegate {
       DefaultCameraPickerTextDelegate._internal();
 
   @override
-  String confirm = '确认';
+  String confirm = 'Confirm';
 
   @override
-  String shootingTips = '轻触拍照';
+  String shootingTips = 'Tap to take photo. Long press to record video.';
 }
 
 /// Default text delegate including recording implements with Chinese.
@@ -44,10 +44,10 @@ class DefaultCameraPickerTextDelegateWithRecording
       DefaultCameraPickerTextDelegateWithRecording._internal();
 
   @override
-  String confirm = '确认';
+  String confirm = 'Confirm';
 
   @override
-  String shootingTips = '轻触拍照，长按摄像';
+  String shootingTips = 'Tap to take photo. Long press to record video.';
 }
 
 /// Default text delegate implements with English.

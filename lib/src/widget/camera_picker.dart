@@ -348,7 +348,7 @@ class CameraPickerState extends State<CameraPicker> {
     /// - No one want the lower resolutions. :)
     cameraController = CameraController(
       cameraDescription ?? cameras[0],
-      ResolutionPreset.max,
+      ResolutionPreset.medium,
     );
     cameraController.initialize().then((dynamic _) {
       if (mounted) {
