@@ -272,12 +272,12 @@ class _CameraPickerViewerState extends State<CameraPickerViewer> {
       minWidth: 20.0,
       height: 32.0,
       padding: const EdgeInsets.symmetric(horizontal: 20.0),
-      color: theme.colorScheme.secondary,
+      color: Color(0xFF087A9D),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(3.0),
       ),
       child: Text(
-        '完成',
+        'Confirm',
         style: TextStyle(
           color: theme.textTheme.bodyText1.color,
           fontSize: 17.0,
