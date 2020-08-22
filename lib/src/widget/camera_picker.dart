@@ -31,7 +31,7 @@ class CameraPicker extends StatefulWidget {
     Key key,
     this.isAllowRecording = false,
     this.isOnlyAllowRecording = false,
-    this.maximumRecordingDuration = const Duration(seconds: 15),
+    this.maximumRecordingDuration = const Duration(seconds: 180),
     this.theme,
     CameraPickerTextDelegate textDelegate,
   })  : assert(
